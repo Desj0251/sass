@@ -1,0 +1,27 @@
+@mixin widthPixel($width: 400px) {
+    width: $width;
+    margin: $MarginAuto
+}
+@mixin borderbox {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@mixin inheritbox {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+%clearfix {
+    &:after {
+        display: table;
+        clear: both;
+        content: "";
+    }
+}
+@mixin bgheader {
+    content: "";
+    position: absolute;
+    bottom: -1rem;
+    width: 30%;
+    height: 1rem;
+    background-color: $dark_blue;
+}

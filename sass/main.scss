@@ -382,20 +382,22 @@ footer {
 		}
 	}
 	.col-3 {
-		float: left;
-		width: 30%;
-		margin-left: 5%;
-		&:first-child {
-			margin-left: 0;
-		}
+        @include equalSpaced(3, 5%);
+//		float: left;
+//		width: 30%;
+//		margin-left: 5%;
+//		&:first-child {
+//			margin-left: 0;
+//		}
 	}
 	.col-4 {
-		width: 22%;
-		margin-left: 4%;
-		float: left;
-		&:first-child {
-			margin-left: 0;
-		}
+        @include equalSpaced(4, 4%);
+//		width: 22%;
+//		margin-left: 4%;
+//		float: left;
+//		&:first-child {
+//			margin-left: 0;
+//		}
 	}
 }
 @include media_3{
@@ -505,20 +507,22 @@ footer {
 		}
 	}
 	.col-3 {
-		float: left;
-		width: 30%;
-		margin-left: 5%;
-		&:first-child {
-			margin-left: 0;
-		}
+        @include equalSpaced(3, 5%);
+//		float: left;
+//		width: 30%;
+//		margin-left: 5%;
+//		&:first-child {
+//			margin-left: 0;
+//		}
 	}
 	.col-4 {
-		width: 22%;
-		margin-left: 4%;
-		float: left;
-		&:first-child {
-			margin-left: 0;
-		}
+        @include equalSpaced(4, 4%);
+//		width: 22%;
+//		margin-left: 4%;
+//		float: left;
+//		&:first-child {
+//			margin-left: 0;
+//		}
 	}
 }
 .clearfix {
